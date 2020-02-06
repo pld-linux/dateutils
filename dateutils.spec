@@ -1,11 +1,11 @@
 Summary:	Command-line date and time calculation, conversion, and comparison
 Name:		dateutils
-Version:	0.4.6
-Release:	2
+Version:	0.4.7
+Release:	1
 License:	BSD
 Group:		Applications/Console
 Source0:	https://github.com/hroptatyr/dateutils/releases/download/v%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	d4fa0e85953e4d31491a67729d4b4af1
+# Source0-md5:	41b11e705802768356abc4e1e9920055
 Patch0:		%{name}-no-sysctl-h.patch
 URL:		http://www.fresse.org/dateutils/
 BuildRequires:	autoconf
